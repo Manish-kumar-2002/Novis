@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novis</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="font-custom">
+    <!-- header start  -->
+    <header class="header relative laptop:absolute laptop:top-0 laptop:left-0 laptop:w-full z-[2]">
+        <div class="sub-header hidden tablet:block py-5 laptop:py-[8.5px] bg-primary laptop:bg-primary/[0.8]">
+            <div
+                class="container mx-auto w-full max-w-[1320px] px-[20px] tablet:flex tablet:items-center tablet:justify-between">
+                <div class="flex gap-2 items-center tablet:gap-[14px] justify-center mb-2 laptop:m-0">
+                    <img class="select-none" src="assets/images/sub-logo.svg" alt="sub-logo">
+                    <p class="text-textColor font-bold text-[12px] tablet:text-[14px]">Registered Provider <a
+                            href="tel:+4050019411"
+                            class="relative after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">405
+                            001 9411</a></p>
+                </div>
+                <div class="flex gap-2 laptop:gap-[30px]  items-center justify-center">
+                    <ul class="flex gap-2 laptop:gap-[30px] items-center justify-center">
+                        <li><a href="javascript:void(0)"
+                                class="font-medium text-[12px] tablet:text-[14px] text-textColor flex gap-1 tablet:gap-[12px] items-center relative after:bg-white after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"><i
+                                    class="bg-location-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>Store
+                                Locator</a></li>
+                        <li class="hidden laptop:block"><a href="javascript:void(0)"
+                                class="font-medium text-[12px] tablet:text-[14px] text-textColor flex gap-1 tablet:gap-[12px] items-center relative after:bg-white after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Resources</a>
+                        </li>
+                        <li><a href="tel:+1300738885"
+                                class="font-medium text-[12px] tablet:text-[14px] text-textColor flex gap-1 tablet:gap-[12px] items-center relative after:bg-white after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"><i
+                                    class="bg-phone-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>1300
+                                738 885</a></li>
+                    </ul>
+                    <button
+                        class="text-btnColor flex gap-2 items-center justify-center text-[12px] tablet:text-[14px] tablet:font-semibold bg-white px-1 py-1 rounded-sm hover:opacity-[0.8] transition-all duration-300 laptop:min-w-[124px]"><i
+                            class="bg-cart-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>Online
+                        Store</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-header bg-primary laptop:bg-transparent py-3">
+            <div class="container mx-auto w-full max-w-[1320px] px-[20px] flex items-center justify-between">
+                <a href="javascript:void(0)" class="block w-[100px] desktop:w-auto"> <img class="select-none"
+                        src="assets/images/logo.png" alt="logo"></a>
+                <div class="hamburger block cursor-pointer laptop:hidden">
+                    <i class="fa-solid fa-bars text-[22px] text-white"></i>
+                </div>
+                <div
+                    class="navigation py-6 laptop:p-0 absolute laptop:static top-[100%] left-0 bg-primary laptop:bg-transparent w-full hidden laptop:flex laptop:w-auto laptop:gap-[36px]">
+                    <nav class="nav">
+                        <ul class="laptop:flex gap-4">
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">
+                                    About Us</a></li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Our
+                                    Brands</a></li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Products</a>
+                            </li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Hire</a>
+                            </li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Complex
+                                    Rehab</a></li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Contracts</a>
+                            </li>
+                            <li><a href="javascript:void(0)"
+                                    class="block text-white text-[14px] font-semibold tablet:text-[16px] hover:bg-white hover:text-primary w-full transition-all duration-300 px-[20px] py-[8px] laptop:hover:text-white laptop:hover:bg-transparent laptop:relative laptop:after:bg-white after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 laptop:p-0">Education</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="relative hidden laptop:block">
+                        <button id="toggleButton" class="laptop:block">
+                            <i id="searchIcon"
+                                class="bg-search-icon bg-no-repeat bg-center block w-[20px] h-[20px] bg-[length:100%]"></i>
+                        </button>
+                        <div id="inputContainer" class="hidden relative">
+                            <input id="toggleInput" type="text"
+                                class="border-none focus:outline-none focus:border-none rounded-sm pl-4 pr-8 w-[130px] desktop:w-full"
+                                placeholder="Search..." />
+                            <button id="closeButton" class="absolute right-[3px] top-[50%] translate-y-[-50%]">
+                                <i
+                                    class="bg-close-icon fa-solid fa-xmark bg-no-repeat bg-center block w-[16px] h-[16px] bg-[length:100%]"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- header end  -->
+
+    <!-- banner section start  -->
+    <section
+        class="banner relative laptop:h-screen laptop:w-[100%] laptop:absolute z-[1] laptop:top-0  laptop:left-0 bg-gradient-to-r from-[#00509E] to-[#002B64]">
+        <img src="assets/images/banner-bg.png" alt="banner-img" class="select-none w-full h-full">
+        <div
+            class="conatiner mx-auto w-full max-w-[1320px] px-[20px] laptop:h-screen laptop:absolute top-0 left-[50%] laptop:translate-x-[-50%]">
+            <div class="absolute left-0 ml-[20px] w-[58%] laptop:w-[37%] top-[50%] laptop:top-[62%] translate-y-[-50%]">
+                <h1 class="text-white font-bold text-[16px] tablet:text-[26px] mb-2 tablet:mb-[20px]">Committed to the
+                    Australian Pressure Care Industry and Community</h1>
+                <p
+                    class="text-white font-normal text-[12px] tablet:text-[16px] line-clamp-3 laptop:line-clamp-none mb-2 tablet:mb-[32px] laptop:max-w-[480px]">
+                    Since 2003, Novis® has been providing clinical healthcare products designed for hospitals, aged care
+                    facilities, rehabilitation providers and the home care community. With collaboration from our
+                    manufacturing and distribution partners, our products and services enhance the lives of thousands of
+                    people every day.</p>
+                <button
+                    class="text-btnColor flex gap-2 items-center justify-center text-[12px] tablet:text-[16px] tablet:font-normal bg-white px-3 py-1 tablet:py-2 rounded-sm hover:opacity-[0.8] transition-all duration-300 tablet:min-w-[157px]">About
+                    Novis</button>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end  -->
+
+
+    <!-- page details section start -->
+    <section class="page-details laptop:mt-[100vh] w-[100%] bg-bgTwo">
+        <div
+            class="container mx-auto w-full max-w-[1320px] px-[20px] relative after:bg-after-icon after:absolute after:h-[17px] after:w-[70px] after:left-0 after:top-[100%] py-8 laptop:py-5">
+            <ul
+                class="flex items-start justify-center flex-col gap-2 laptop:flex-row laptop::justify-between desktop:justify-centeru desktop:gap-[30px]">
+                <li
+                    class="text-textColortwo font-bold text-[15px] relative laptop:after:bg-none after:bg-listing-icon after:absolute after:h-[9px] after:w-[14px] after:left-0 after:top-[5px] w-fit pl-5 desktop:pl-10">
+                    Experts in pressure care, patient transfers and complex rehab </li>
+                <li
+                    class="text-textColortwo font-bold text-[15px] relative after:bg-listing-icon after:absolute after:h-[9px] after:w-[14px] after:left-0 after:top-[5px] w-fit pl-5 desktop:pl-10">
+                    Outstanding customer service</li>
+                <li
+                    class="text-textColortwo font-bold text-[15px] relative after:bg-listing-icon after:absolute after:h-[9px] after:w-[14px] after:left-0 after:top-[5px] w-fit pl-5 desktop:pl-10">
+                    Serving the healthcare industry since 2002</li>
+            </ul>
+        </div>
+    </section>
+    <!-- page details section end -->
+
+    <!-- We Are Specialists In section start -->
+    <section class="sepecialists-block relative py-8">
+        <a href="javascript:void(0)" class="block absolute top-[30px] right-0 z-10"><img
+                src="assets/images/feedback.png" alt="feedback"></a>
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <h2
+                class="text-center font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-7 laptop:mb-[42px]">
+                We Are Specialists In</h2>
+            <div class="sep-wrap flex flex-col gap-6 tablet:flex-row-reverse laptop:gap-[62px]">
+                <div
+                    class="relative rounded-sm after:bg-afterWhite-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterWhite-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                    <img src="assets/images/sepecialists-img.png" alt="sepecialists-img"
+                        class="select-none block w-full h-full object-cover">
+                </div>
+                <div class=" tablet:w-[50%]">
+                    <h3 class="text-textColorThree font-bold text-[22px] mb-4">Aged Care</h3>
+                    <p class="font-normal text-[14px] text-[#252525] mb-[20px] laptop:mb-[39px]">Novis has been
+                        providing Aged Care equipment for the best clinical <br> outcomes since 2003. We work with
+                        architects, builders, aged care facilities, <br> and project managers to find the best
+                        solutions.</p>
+                    <ul class="">
+                        <li
+                            class="py-2 laptop:py-5 border-t border-t-[#006FDE] text-[16px] tablet:text-[22px] font-medium text-[#75A5D6]">
+                            Complex</li>
+                        <li
+                            class="py-2 laptop:py-5 border-t border-t-[#E8F0F8] text-[16px] tablet:text-[22px] font-medium text-[#75A5D6]">
+                            Hospital</li>
+                        <li
+                            class="py-2 laptop:py-5 border-t border-t-[#E8F0F8] text-[16px] tablet:text-[22px] font-medium text-[#75A5D6]">
+                            In Home Care</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- We Are Specialists In section end -->
+
+
+
+    <!-- Our Key Services section start -->
+    <section class="Services-block py-8">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <h2
+                class="text-center font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-7 laptop:mb-[42px]">
+                Our Key Services</h2>
+            <div class="sep-wrap flex flex-col gap-6 tablet:flex-row laptop:gap-[62px]">
+                <div
+                    class="relative rounded-sm after:bg-afterWhite-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterWhite-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                    <img src="assets/images/service-one.png" alt="sepecialists-img"
+                        class="select-none block w-full h-full object-cover">
+                    <span
+                        class="block text-white text-center text-[16px] laptop:text-[24px] font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">Service
+                        & Repairs</span>
+                </div>
+                <div
+                    class="relative rounded-sm after:bg-afterWhite-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterWhite-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                    <img src="assets/images/service-two.png" alt="sepecialists-img"
+                        class="select-none block w-full h-full object-cover">
+                    <span
+                        class="block text-white text-center text-[16px] laptop:text-[24px] font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">Installations
+                        & Modifications</span>
+                </div>
+                <div
+                    class="relative rounded-sm after:bg-afterWhite-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterWhite-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                    <img src="assets/images/service-three.png" alt="sepecialists-img"
+                        class="select-none block w-full h-full object-cover">
+                    <span
+                        class="block text-white text-center text-[16px] laptop:text-[24px] font-bold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">Hire</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Key Services section end -->
+
+    <!-- Brand Portfolio section start -->
+    <section class="sepecialists-block py-8 desktop:py-10">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <h2
+                class="text-center flex items-center justify-center gap-2 tablet:gap-[25px] flex-col tablet:flex-row font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-7 laptop:mb-[42px]">
+                Our Brand Portfolio <a href="javascript:void(0)"
+                    class="font-normal text-[14px] text-[#01438A] relative after:bg-[#01438A] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#CBE5FF] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">View
+                    all brands</a></h2>
+
+            <div class="brand-slider !flex items-center">
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/one.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/two.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/three.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/four.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/five.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/six.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/three.png" alt="brand-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Portfolio section end -->
+
+
+    <!-- customise to user's section start -->
+    <section
+        class="customise-user py-[50px] relative bg-[#F0F6FB] after:bg-[#BFD4E5] after:absolute after:block after:h-[1px] after:w-[90%] after:max-w-[1251px] after:left-[50%] after:translate-x-[-50%] after:bottom-0">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px] ">
+            <div class="customise-slides laptop:max-w-[880px] desktop:max-w-[1124px]">
+                <div class="customise-wrap !flex flex-col gap-6 tablet:flex-row laptop:gap-[54px]">
+                    <div
+                        class="relative h-[347px] rounded-sm after:bg-afterGrey-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterGrey-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                        <img src="assets/images/user-one.png" alt="sepecialists-img"
+                            class="select-none block w-full h-full object-cover">
+                    </div>
+                    <div class=" tablet:w-[50%] pt-[20px]">
+                        <span class="uppercase font-bold text-[#75A5D6] text-[12px] mb-16px">FEATURED PRODUCT</span>
+                        <h2
+                            class="max-w-[504px] font-bold text-[24px] laptop:text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-2 laptop:mb-[20px]">
+                            Etac Prio: Design with care, customise to user's ability.</h2>
+                        <p class="max-w-[436px] font-normal text-[16px] text-[#252525] mb-[20px] laptop:mb-[30px]">The
+                            Etac Prio wheelchair provides a high level of customisation, adaptability and care for
+                            users. This tilt in space and reclining wheelchair allows for frequent repositioning and
+                            long term seating.</p>
+                        <button
+                            class="text-white flex gap-2 items-center justify-center text-[12px] tablet:text-[14px] tablet:font-semibold bg-[#006FDE] px-4 py-2 tablet:py-3 rounded-sm hover:opacity-[0.8] transition-all duration-300 laptop:min-w-[150px]">Learn
+                            more</button>
+                    </div>
+                </div>
+                <div class="customise-wrap !flex flex-col gap-6 tablet:flex-row laptop:gap-[54px]">
+                    <div
+                        class="relative h-[347px] rounded-sm after:bg-afterGrey-icon after:bg-cover after:absolute after:h-[21px] after:w-[70px] after:right-[20px] after:top-0 before:bg-afterGrey-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180 tablet:w-[50%]">
+                        <img src="assets/images/sepecialists-img.png" alt="sepecialists-img"
+                            class="select-none block w-full h-full object-cover">
+                    </div>
+                    <div class=" tablet:w-[50%] pt-[20px]">
+                        <span class="uppercase font-bold text-[#75A5D6] text-[12px] mb-16px">FEATURED PRODUCT</span>
+                        <h2
+                            class="max-w-[504px] font-bold text-[24px] laptop:text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-2 laptop:mb-[20px]">
+                            Aged Care: Design with care, customise to user's ability.</h2>
+                        <p class="max-w-[436px] font-normal text-[16px] text-[#252525] mb-[20px] laptop:mb-[30px]">The
+                            Etac Prio wheelchair provides a high level of customisation, adaptability and care for
+                            users. This tilt in space and reclining wheelchair allows for frequent repositioning and
+                            long term seating.</p>
+                        <button
+                            class="text-white flex gap-2 items-center justify-center text-[12px] tablet:text-[14px] tablet:font-semibold bg-[#006FDE] px-4 py-2 tablet:py-3 rounded-sm hover:opacity-[0.8] transition-all duration-300 laptop:min-w-[150px]">Learn
+                            more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- customise to user's section end -->
+
+
+    <!-- Catalogues section start -->
+    <div
+        class="catalogues py-8 bg-[#F0F6FB] relative after:bg-[#BFD4E5] after:absolute after:block after:h-[1px] after:w-[90%] after:max-w-[1251px] after:left-[50%] after:translate-x-[-50%] after:bottom-0">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <h2
+                class="text-center flex items-center justify-start gap-2 tablet:gap-[25px] flex-col tablet:flex-row font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-7 laptop:mb-[42px]">
+                Catalogues <a href="javascript:void(0)"
+                    class="font-normal text-[14px] text-[#01438A] relative after:bg-[#01438A] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#CBE5FF] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">View
+                    all Catalogues</a></h2>
+            <div class="flex justify-between flex-col gap-6 tablet:gap-[30px] desktop:gap-[70px] tablet:flex-row">
+                <div class="catalogue-item rounded-sm w-full overflow-hidden">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterGrey-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180">
+                        <img src="assets/images/catalogues-one.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3
+                        class="flex justify-between items-start text-[15px] laptop:text-[18px] text-[#01438A] font-bold mt-2">
+                        Novis Branded Catalogue <a href="#"><img src="assets/images/catalogues-icon.png" alt="img"></a>
+                    </h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">August 2023</p>
+                </div>
+                <div class="catalogue-item rounded-sm w-full">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterGrey-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180">
+                        <img src="assets/images/catalogues-two.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3
+                        class="flex justify-between items-start text-[15px] laptop:text-[18px] text-[#01438A] font-bold mt-2">
+                        Pressure Injury Prevention Products Catalogue<img src="assets/images/catalogues-icon.png"
+                            alt="img"></h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">August 2023</p>
+                </div>
+                <div class="catalogue-item rounded-sm w-full">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterGrey-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px] before:rotate-180">
+                        <img src="assets/images/catalogues-three.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3
+                        class="flex justify-between items-start text-[15px] laptop:text-[18px] text-[#01438A] font-bold mt-2">
+                        Community Hire catalogue<img src="assets/images/catalogues-icon.png" alt="img"></h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">August 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Catalogues section end -->
+
+
+    <!-- Nationally section end -->
+
+    <section class="bg-[#F0F6FB] py-12">
+        <div
+            class="container mx-auto w-full max-w-[1320px] px-[20px] grid grid-cols-1 tablet:flex gap-6 items-center desktop:gap-[71px] relative after:bg-after-icon after:absolute after:h-[17px] after:w-[70px] after:left-0 after:bottom-[-65px] z-10">
+
+            <div class="tablet:w-[40%]">
+                <img src="assets/images/nationallyimg.png" alt="Supporting-img" class="rounded-lg">
+            </div>
+            <div class="text-left tablet:w-[100%] desktop:w-[100%]">
+                <h3
+                    class="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-2">
+                    Nationally supported by our trusted network</h3>
+                <p class="text-[#01438A] mb-4">Find your nearest retail location</p>
+
+                <form class="flex space-x-2">
+                    <input type="text" placeholder="Enter postcode or suburb here"
+                        class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    <select
+                        class="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option>Within 10km</option>
+                        <option>Within 20km</option>
+                        <option>Within 50km</option>
+                    </select>
+
+                    <button
+                        class="bg-[#006FDE] text-white px-6 py-2 rounded hover:opacity-[0.8] transition-all duration-300">Find</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nationally section end -->
+
+    <!-- Upcoming Webinar section start  -->
+    <section
+        class="bg-gradient-to-r relative from-[#00509E] to-[#002B64] py-[30px] after:bg-[#006FDE] after:absolute after:block after:h-[1px] after:w-[90%] after:max-w-[1251px] after:left-[50%] after:translate-x-[-50%] after:bottom-0 desktop:py-[50px]">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px] ">
+            <h2
+                class="text-center flex items-center justify-start gap-2 tablet:gap-[25px] flex-col tablet:flex-row font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#CBE5FF] to-[#75A5D6] mb-7 laptop:mb-[42px]">
+                Upcoming Webinar <a href="javascript:void(0)"
+                    class="font-normal text-[14px] text-[#CBE5FF] relative after:bg-[#CBE5FF] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#006FDE] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">View
+                    Past Webinars</a></h2>
+            <div class="customise-wrap !flex flex-col gap-6 tablet:flex-row laptop:gap-[54px]">
+                <div class="bg-transparent relative h-[347px] rounded-sm tablet:w-[40%]">
+                    <img src="assets/images/upcoming-img.png" alt="sepecialists-img"
+                        class="select-none block w-full h-full object-contain">
+                </div>
+                <div class=" tablet:w-[50%] pt-[20px]">
+                    <span class="uppercase font-bold text-[#ffffff] text-[12px] mb-16px">12 Aug 2022 5:00 PM</span>
+                    <h2
+                        class="max-w-[504px] font-bold text-[24px] laptop:text-[28px] text-transparent bg-clip-text bg-gradient-to-r from-[#CBE5FF] to-[#75A5D6] mb-2 laptop:mb-[20px]">
+                        Pressure Injury Prevention</h2>
+                    <p class="max-w-[436px] font-normal text-[16px] text-[#ffffff] mb-[20px] laptop:mb-[30px]">Pressure
+                        injuries typically appear in the form of a sore, or ulcer, on areas of the skin that are
+                        regularly exposed to pressure. We are determined to provide 24/7 vigilant care to patients and
+                        physicians, from specialized mattresses to air cell cushions. We help you develop a better
+                        understanding of pressure injury prevention.</p>
+                    <button
+                        class="text-[#01438A] flex gap-2 items-center justify-center text-[12px] tablet:text-[14px] tablet:font-semibold bg-[#ffffff] px-4 py-2 tablet:py-3 rounded-sm hover:opacity-[0.8] transition-all duration-300 laptop:min-w-[150px]">Learn
+                        more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Webinar section end  -->
+
+
+    <!-- Latest News section start -->
+    <section
+        class="relative bg-gradient-to-r from-[#00509E] to-[#002B64] py-[30px] after:bg-[#006FDE] after:absolute after:block after:h-[1px] after:w-[90%] after:max-w-[1251px] after:left-[50%] after:translate-x-[-50%] after:bottom-0">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px] ">
+            <h2
+                class="text-center flex items-center justify-start gap-2 tablet:gap-[25px] flex-col tablet:flex-row font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#CBE5FF] to-[#75A5D6] mb-7 laptop:mb-[42px]">
+                Latest News<a href="javascript:void(0)"
+                    class="font-normal text-[14px] text-[#CBE5FF] relative after:bg-[#CBE5FF] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#006FDE] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">View
+                    all News & Releases</a></h2>
+            <div class="flex justify-between flex-col gap-6 tablet:gap-[30px] desktop:gap-[70px] tablet:flex-row">
+                <div class="catalogue-item rounded-sm w-full overflow-hidden">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterBlue-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px]">
+                        <img src="assets/images/upcoming-newa.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3 class="text-[15px] laptop:text-[18px] text-[#ffffff] font-bold mt-2 mb-4">Our new Kingsgrove
+                        Showroom Opening</h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#ffffff] mb-4">Since 2003, Novis® has
+                        been providing clinical healthcare products designed for hospitals, aged care facilities,
+                        rehabilitation providers and ...</p>
+                    <a href="javascript:void(0)"
+                        class="font-normal text-[14px] text-[#CBE5FF] relative after:bg-[#CBE5FF] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#006FDE] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">Read
+                        more</a>
+                </div>
+                <div class="catalogue-item rounded-sm w-full">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterBlue-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px]">
+                        <img src="assets/images/upcoming-newab.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3 class="text-[15px] laptop:text-[18px] text-[#ffffff] font-bold mt-2 mb-4">New Configura Advance
+                        Chair Training Coming Soon</h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#ffffff] mb-4">Since 2003, Novis® has
+                        been providing clinical healthcare products designed for hospitals, aged care facilities,
+                        rehabilitation providers and ...</p>
+                    <a href="javascript:void(0)"
+                        class="font-normal text-[14px] text-[#CBE5FF] relative after:bg-[#CBE5FF] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#006FDE] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">Read
+                        more</a>
+                </div>
+                <div class="catalogue-item rounded-sm w-full">
+                    <div
+                        class="rounded-sm overflow-hidden relative before:bg-afterBlue-icon before:bg-cover before:absolute before:h-[21px] before:w-[70px] before:left-[20px] before:bottom-[-1px]">
+                        <img src="assets/images/upcoming-newc.png" alt="Catalogue 1" class="w-full">
+                    </div>
+                    <h3 class="text-[15px] laptop:text-[18px] text-[#ffffff] font-bold mt-2 mb-4">New Novis catalogue is
+                        out now</h3>
+                    <p class="text-[12px] laptop:text-[15px] font-normal text-[#ffffff] mb-4">Since 2003, Novis® has
+                        been providing clinical healthcare products designed for hospitals, aged care facilities,
+                        rehabilitation providers and ...</p>
+                    <a href="javascript:void(0)"
+                        class="font-normal text-[14px] text-[#CBE5FF] relative after:bg-[#CBE5FF] after:absolute after:h-[1px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 before:bg-[#006FDE] before:absolute before:h-[1px] before:w-full before:bottom-[-3px] before:left-0">Read
+                        more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest News section end -->
+
+    <!-- Stay Up To Date start  -->
+    <section class="bg-gradient-to-r relative from-[#00509E] to-[#002B64] py-[30px] desktop:py-[50px]">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px] tablet:flex items-end justify-between gap-6">
+            <div class="tablet:w-[50%]">
+                <h3
+                    class="text-[20px] tablet:text-[24px] font-semibold mb-3 text-transparent bg-clip-text bg-gradient-to-r from-[#CBE5FF] to-[#75A5D6]">
+                    Stay Up To Date</h3>
+                <p class="text-white font-normal text-[12px] tablet:text-[15px] mb-3">Never miss an update or
+                    announcement by subscribing here to Novis news</p>
+            </div>
+            <form class="flex justify-center space-x-2 max-w-lg tablet:w-[50%]">
+                <input type="email" placeholder="Your email here"
+                    class="w-full border border-gray-300 rounded px-4 py-2">
+                <button
+                    class="bg-[#006FDE] text-white px-6 py-2 rounded hover:opacity-[0.8] transition-all duration-300 default:min-w-[168px]">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <!-- Stay Up To Date end  -->
+
+
+
+    <!-- Don’t just take our word for it start -->
+
+    <section
+        class="sepecialists-block py-8 desktop:py-10 relative bg-[#ffffff] after:bg-[#BFD4E5] after:absolute after:block after:h-[1px] after:w-[90%] after:max-w-[1251px] after:left-[50%] after:translate-x-[-50%] after:bottom-0">
+
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <h2
+                class="text-center font-bold text-[24px] text-transparent bg-clip-text bg-gradient-to-r from-[#006FDE] to-[#002B64] mb-7 laptop:mb-[42px]">
+                Don’t just take our word for it</h2>
+            <div class="flex justify-between flex-col gap-6 tablet:gap-[30px] desktop:gap-[70px] tablet:flex-row">
+                <div class="catalogue-item rounded-sm w-full overflow-hidden">
+                    <div class="rounded-sm overflow-hidden">
+                        <img src="assets/images/star.png" alt="Catalogue 1" class="w-fit">
+                    </div>
+                    <p
+                        class="flex justify-between items-start text-[12px] laptop:text-[15px] text-[#252525] font-normal mt-2 mb-3">
+                        Great service! I had no idea where to start supplying my Mum with a wheelchair. Andrew was
+                        supportive and helpful. I unpacked the chair yesterday and it is perfect. Quick delivery and a
+                        great product.
+                    </p>
+                    <span class="block text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">Jeanette
+                        O'Brien</span>
+                </div>
+                <div class="catalogue-item rounded-sm w-full overflow-hidden">
+                    <div class="rounded-sm overflow-hidden">
+                        <img src="assets/images/star.png" alt="Catalogue 1" class="w-fit">
+                    </div>
+                    <p
+                        class="flex justify-between items-start text-[12px] laptop:text-[15px] text-[#252525] font-normal mt-2 mb-3">
+                        Great service! I had no idea where to start supplying my Mum with a wheelchair. Andrew was
+                        supportive and helpful. I unpacked the chair yesterday and it is perfect. Quick delivery and a
+                        great product.
+                    </p>
+                    <span class="block text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">Jeanette
+                        O'Brien</span>
+                </div>
+                <div class="catalogue-item rounded-sm w-full overflow-hidden">
+                    <div class="rounded-sm overflow-hidden">
+                        <img src="assets/images/star.png" alt="Catalogue 1" class="w-fit">
+                    </div>
+                    <p
+                        class="flex justify-between items-start text-[12px] laptop:text-[15px] text-[#252525] font-normal mt-2 mb-3">
+                        Great service! I had no idea where to start supplying my Mum with a wheelchair. Andrew was
+                        supportive and helpful. I unpacked the chair yesterday and it is perfect. Quick delivery and a
+                        great product.
+                    </p>
+                    <span class="block text-[12px] laptop:text-[15px] font-normal text-[#006FDE]">Jeanette
+                        O'Brien</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Don’t just take our word for it end -->
+
+
+
+    <!-- Brand Portfolio section start -->
+    <section class="sepecialists-block py-8">
+        <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+            <div class="rating-slider !flex items-center">
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders1.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders2.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders3.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders4.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders5.png" alt="brand-logo">
+                </div>
+                <div class="brand-slide !flex items-center justify-center">
+                    <img src="assets/images/sliders2.png" alt="brand-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Portfolio section end -->
+
+    <!-- Footer section start -->
+    <footer>
+
+        <div class="py-6 bg-[#E8F0F8]">
+            <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+                <div class="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
+                    <div class="">
+                        <h4 class=" text-12px tablet:text-[15px] text-[#01438A] font-bold uppercase mb-5">Customer Info
+                        </h4>
+                        <ul class="text-[10px] tablet:text-[14px] text-[#4B4B4B] font-normal">
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    Community Rental Request</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Community
+                                    Trial Request</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Equipment
+                                    Service Support</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Return
+                                    Authorisation Form</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    AS/NZS Standards</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Novis
+                                    Warranty Statement</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Where
+                                    to Buy</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Novis
+                                    Code of Conduct</a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h4 class=" text-12px tablet:text-[15px] text-[#01438A] font-bold uppercase mb-5">MEMBER ACCESS
+                        </h4>
+                        <ul class="text-[10px] tablet:text-[14px] text-[#4B4B4B] font-normal">
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    Partner Login</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Product
+                                    Brochures & Resources</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">NORM
+                                    Login</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Register
+                                    to become a Partner</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h4 class=" text-12px tablet:text-[15px] text-[#01438A] font-bold uppercase mb-5">EDUCATION</h4>
+                        <ul class="text-[10px] tablet:text-[14px] text-[#4B4B4B] font-normal">
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    Articles</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Pressure
+                                    Injury Prevention</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Dementia
+                                    Resources</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Star
+                                    Cushions for Wheelchair Users</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    Handle with Care Webinar</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">
+                                    Alternating Mattress Solutions Webinar</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Bathroom
+                                    Safety Webinar</a></li>
+                            <li class="pb-2"><a href="#"
+                                    class="relative after:bg-[#4B4B4B] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300">Upcoming
+                                    Webinars</a></li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h4 class=" text-12px tablet:text-[15px] text-[#01438A] font-bold uppercase mb-5">Contact us
+                        </h4>
+                        <a href="tel:+1300738885"
+                            class="block w-fit font-normal text-[14px] tablet:text-[14px] text-[#3E3E3E] flex gap-1 tablet:gap-[12px] items-center relative after:bg-[#01438A] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300 mb-7"><i
+                                class="bg-phone-footer-icon bg-no-repeat bg-center block w-[24px] h-[24px] bg-[length:100%]"></i>1300
+                            738 885</a>
+                        <a class="relative block w-fit text-[#006FDE] mb-7 after:bg-[#006FDE] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"
+                            href="#">Contact Us Here</a>
+                        <div class="social-icon flex items-center gap-4">
+                            <a href="#"><img src="assets/images/fb.png" alt="fb"></a>
+                            <a href="#"><img src="assets/images/yt.png" alt="yt"></a>
+                            <a href="#"><img src="assets/images/li.png" alt="li"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-6 bg-[#F0F6FB]">
+            <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+                <div class="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4">
+                    <div class="">
+                        <img src="assets/images/map.png" alt="map">
+                    </div>
+                    <div class="">
+                        <h4
+                            class=" text-[#006FDE] font-bold text-[14px] flex gap-[10px] items-center xl:text-[12px] uppercase mb-5">
+                            <i class="bg-map-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>
+                            NSW
+                        </h4>
+                        <address class="text-[#4B4B4B] text-[12px] not-italic leading-[26px]">12/12 Mars Rd, Lane Cove
+                            West NSW 2066 <br> B3/15 Forrester St, Kingsgrove NSW 2208 <br> 3D/6 Boundary Rd, Northmead
+                            NSW 2152</address>
+                    </div>
+                    <div class="">
+                        <h4
+                            class=" text-[#006FDE] font-bold text-[14px] flex gap-[10px] items-center xl:text-[12px] uppercase mb-5">
+                            <i class="bg-map-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>
+                            QLD
+                        </h4>
+                        <address class="text-[#4B4B4B] text-[12px] not-italic leading-[26px]">3/59 Eastern Rd, Browns
+                            Plains QLD 4118</address>
+                    </div>
+                    <div class="">
+                        <h4
+                            class=" text-[#006FDE] font-bold text-[14px] flex gap-[10px] items-center xl:text-[12px] uppercase mb-5">
+                            <i class="bg-map-icon bg-no-repeat bg-center block w-[12px] h-[17px] bg-[length:100%]"></i>
+                            VIC
+                        </h4>
+                        <address class="text-[#4B4B4B] text-[12px] not-italic leading-[26px]">2/59 Eastern Rd, Browns
+                            Plains VIC 3211</address>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-wrap gap-4 py-6 bg-[#E8F0F8]">
+            <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+                <p class="text-[#4B4B4B] font-normal text-[13px]">Whilst every effort is made to provide information
+                    that is accurate, occasionally, one or more items on our website may be incorrectly priced. Where a
+                    product is listed at an incorrect price due to typographical, photographic, or technical error or
+                    error in pricing information, Novis reserves the right to refuse, cancel or amend any product(s)
+                    listed at the incorrect price. All prices shown are retail prices. To see trade prices, please log
+                    into your existing partner membership. All prices shown in Australia Dollars.
+                </p>
+            </div>
+        </div>
+
+
+        <!--start copywrite section-->
+        <div class="flex-wrap gap-4 py-6 bg-[#F0F6FB]">
+            <div class="conatiner mx-auto w-full max-w-[1320px] px-[20px]">
+                <div class="items-centers flex justify-center tablet:justify-between flex-wrap gap-4 py-6">
+                    <div
+                        class="flex items-center flex-wrap justify-center gap-6 font-bold text-[13px text-[#01438A] tablet:justify-end ">
+                        <span class="block">© 2022 All Rights Reserved</span>
+                        <footer-nav
+                            class="flex items-center capitalize justify-center flex-wrap font-normal tablet:justify-end gap-4">
+                            <a class="relative after:bg-[#01438A] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"
+                                href="/privacy-policy">privacy policy </a>
+                            <a class="relative after:bg-[#01438A] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"
+                                href="/privacy-policy">warranty</a>
+                            <a class="relative after:bg-[#01438A] after:absolute after:h-[0.5px] after:w-0 after:bottom-[-3px] after:left-0 hover:after:w-full after:transition-all after:duration-300"
+                                href="/privacy-policy">cookie policy</a>
+                        </footer-nav>
+                    </div>
+                    <p class="text-sm/6 text-slate-600 max-md:text-center">
+                        <img class="select-none" src="assets/images/footer-logo.png" alt="logo">
+                    </p>
+                </div>
+            </div>
+            <!--End copywrite section-->
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

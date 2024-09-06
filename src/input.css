@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* for brand logo slider */
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+/* for customise to user's section slider */
+
+.slick-arrow {
+    position: absolute;
+    top: -40px;
+    right: 40px;
+    width: 26px;
+    height: 26px;
+    font-size: 0;
+    z-index: 1;
+}
+
+.slick-next.slick-arrow {
+    right: 0px;
+    background: url('../images/Slider-arrow-right.svg') no-repeat;
+}
+
+.slick-prev.slick-arrow {
+    background: url('../images/Slider-arrow-left.svg') no-repeat;
+}
+
+
+@media all and (min-width: 992px) {
+    .slick-arrow {
+        top: 50%;
+        right: -60px;
+        transform: translateX(-50%);
+    }
+
+    .slick-next.slick-arrow {
+        right: -96px;
+    }
+}
